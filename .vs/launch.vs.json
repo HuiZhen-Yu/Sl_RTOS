@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "configurations": [
+    {
+      "project": "CMakeLists.txt",
+      "projectTarget": "Sl_RTOS.elf",
+      "name": "Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "program": "${debugInfo.fullTargetPath}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "E:/Program Files/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/arm-none-eabi-gdb.exe",
+      "miDebuggerServerAddress": "localhost:3333",
+      "debugServerPath": "E:/Program Files/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.win32_2.1.0.202305091550/tools/bin/ST-LINK_gdbserver.exe",
+      "debugServerArgs": "--stm32cubeprogrammer-path E:/ReLife/CUBEIDEPrj/STM32CubeIDE/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.1.0.202305091550/tools/bin/ --swd --port-number 3333",
+      "serverStarted": "Waiting for connection on port .*\\.\\.\\.",
+      "stopAtConnect": true,
+      "postRemoteConnectCommands": [
+        {
+          "text": "load build/debug/build/Sl_RTOS.elf"
+        }
+      ]    }
+  ]
+}

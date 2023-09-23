@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ReLife/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Core/Startup/startup_stm32h753iitx.s
+
