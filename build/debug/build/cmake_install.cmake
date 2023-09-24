@@ -1,8 +1,8 @@
-# Install script for directory: E:/ReLife/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS
+# Install script for directory: D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "E:/ReLife/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/install")
+  set(CMAKE_INSTALL_PREFIX "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "E:/Program Files/ST/STM32CubeIDE_1.13.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/AllSoft/Program/Study/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/ReLife/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

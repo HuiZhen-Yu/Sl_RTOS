@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Program Files (x86)\CMake\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\yhz\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe
 
 # The command to remove a file.
-RM = "E:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f
+RM = C:\Users\yhz\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ReLife\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS
+CMAKE_SOURCE_DIR = D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ReLife\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build
+CMAKE_BINARY_DIR = D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\ReLife\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\bu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"E:\Program Files (x86)\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\yhz\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\Program Files (x86)\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\yhz\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\ReLife\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\CMakeFiles E:\ReLife\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\CMakeFiles D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\ReLife\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,69 +128,45 @@ Sl_RTOS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/build
 .PHONY : Sl_RTOS/fast
 
-Arch/Arm/Cortex_M7/port_c.obj: Arch/Arm/Cortex_M7/port_c.c.obj
-.PHONY : Arch/Arm/Cortex_M7/port_c.obj
+Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.obj: Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.obj
 
 # target to build an object file
-Arch/Arm/Cortex_M7/port_c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Cortex_M7/port_c.c.obj
-.PHONY : Arch/Arm/Cortex_M7/port_c.c.obj
+Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
 
-Arch/Arm/Cortex_M7/port_c.i: Arch/Arm/Cortex_M7/port_c.c.i
-.PHONY : Arch/Arm/Cortex_M7/port_c.i
+Arch/Arm/Corterx-m7/GNU/os_port/port_c.obj: Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_c.obj
+
+# target to build an object file
+Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.obj
+
+Arch/Arm/Corterx-m7/GNU/os_port/port_c.i: Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.i
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_c.i
 
 # target to preprocess a source file
-Arch/Arm/Cortex_M7/port_c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Cortex_M7/port_c.c.i
-.PHONY : Arch/Arm/Cortex_M7/port_c.c.i
+Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.i
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.i
 
-Arch/Arm/Cortex_M7/port_c.s: Arch/Arm/Cortex_M7/port_c.c.s
-.PHONY : Arch/Arm/Cortex_M7/port_c.s
-
-# target to generate assembly for a file
-Arch/Arm/Cortex_M7/port_c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Cortex_M7/port_c.c.s
-.PHONY : Arch/Arm/Cortex_M7/port_c.c.s
-
-Arch/Arm/Cortex_M7/port_s.obj: Arch/Arm/Cortex_M7/port_s.s.obj
-.PHONY : Arch/Arm/Cortex_M7/port_s.obj
-
-# target to build an object file
-Arch/Arm/Cortex_M7/port_s.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Cortex_M7/port_s.s.obj
-.PHONY : Arch/Arm/Cortex_M7/port_s.s.obj
-
-Arch1/Arm/Corterx-m7/port_c.obj: Arch1/Arm/Corterx-m7/port_c.c.obj
-.PHONY : Arch1/Arm/Corterx-m7/port_c.obj
-
-# target to build an object file
-Arch1/Arm/Corterx-m7/port_c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch1/Arm/Corterx-m7/port_c.c.obj
-.PHONY : Arch1/Arm/Corterx-m7/port_c.c.obj
-
-Arch1/Arm/Corterx-m7/port_c.i: Arch1/Arm/Corterx-m7/port_c.c.i
-.PHONY : Arch1/Arm/Corterx-m7/port_c.i
-
-# target to preprocess a source file
-Arch1/Arm/Corterx-m7/port_c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch1/Arm/Corterx-m7/port_c.c.i
-.PHONY : Arch1/Arm/Corterx-m7/port_c.c.i
-
-Arch1/Arm/Corterx-m7/port_c.s: Arch1/Arm/Corterx-m7/port_c.c.s
-.PHONY : Arch1/Arm/Corterx-m7/port_c.s
+Arch/Arm/Corterx-m7/GNU/os_port/port_c.s: Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.s
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_c.s
 
 # target to generate assembly for a file
-Arch1/Arm/Corterx-m7/port_c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch1/Arm/Corterx-m7/port_c.c.s
-.PHONY : Arch1/Arm/Corterx-m7/port_c.c.s
+Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.s
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_c.c.s
 
-Arch1/Arm/Corterx-m7/port_s.obj: Arch1/Arm/Corterx-m7/port_s.s.obj
-.PHONY : Arch1/Arm/Corterx-m7/port_s.obj
+Arch/Arm/Corterx-m7/GNU/os_port/port_s.obj: Arch/Arm/Corterx-m7/GNU/os_port/port_s.s.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_s.obj
 
 # target to build an object file
-Arch1/Arm/Corterx-m7/port_s.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch1/Arm/Corterx-m7/port_s.s.obj
-.PHONY : Arch1/Arm/Corterx-m7/port_s.s.obj
+Arch/Arm/Corterx-m7/GNU/os_port/port_s.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_port/port_s.s.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/os_port/port_s.s.obj
 
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
@@ -809,14 +785,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sl_RTOS
-	@echo ... Arch/Arm/Cortex_M7/port_c.obj
-	@echo ... Arch/Arm/Cortex_M7/port_c.i
-	@echo ... Arch/Arm/Cortex_M7/port_c.s
-	@echo ... Arch/Arm/Cortex_M7/port_s.obj
-	@echo ... Arch1/Arm/Corterx-m7/port_c.obj
-	@echo ... Arch1/Arm/Corterx-m7/port_c.i
-	@echo ... Arch1/Arm/Corterx-m7/port_c.s
-	@echo ... Arch1/Arm/Corterx-m7/port_s.obj
+	@echo ... Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.obj
+	@echo ... Arch/Arm/Corterx-m7/GNU/os_port/port_c.obj
+	@echo ... Arch/Arm/Corterx-m7/GNU/os_port/port_c.i
+	@echo ... Arch/Arm/Corterx-m7/GNU/os_port/port_c.s
+	@echo ... Arch/Arm/Corterx-m7/GNU/os_port/port_s.obj
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

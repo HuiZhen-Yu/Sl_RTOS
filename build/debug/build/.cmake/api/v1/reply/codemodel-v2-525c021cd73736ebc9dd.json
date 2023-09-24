@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Sl_RTOS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Sl_RTOS-Debug-decdd85871fc3d64756c.json",
+					"jsonFile" : "target-Sl_RTOS-Debug-61b2c6a9c13ab955c4bb.json",
 					"name" : "Sl_RTOS",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/ReLife/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build",
-		"source" : "E:/ReLife/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS"
+		"build" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build",
+		"source" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS"
 	},
 	"version" : 
 	{
