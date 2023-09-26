@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj"
+  "CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj"
   "CMakeFiles/Sl_RTOS.dir/Arch/Arm/cpu_core.c.obj"
   "CMakeFiles/Sl_RTOS.dir/Arch/Arm/cpu_core.c.obj.d"
   "CMakeFiles/Sl_RTOS.dir/board/Src/gpio.c.obj"

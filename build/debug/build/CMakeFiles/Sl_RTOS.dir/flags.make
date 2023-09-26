@@ -11,7 +11,7 @@ ASM_FLAGS = -g -g3 -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard
 
 C_DEFINES = -DDEBUG -DSTM32H753xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\board\Inc -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\STM32H7xx_HAL_Driver\Inc -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\CMSIS\Device\ST\STM32H7xx\Include -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\CMSIS\Include
+C_INCLUDES = -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\kernal\ports -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\kernal\config -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\kernal\core -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\board\Inc -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\STM32H7xx_HAL_Driver\Inc -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\CMSIS\Device\ST\STM32H7xx\Include -ID:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\platform\Drivers\CMSIS\Include
 
 C_FLAGS = -g -g3 -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard
 

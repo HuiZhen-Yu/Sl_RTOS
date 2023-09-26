@@ -68,18 +68,18 @@ include CMakeFiles/Sl_RTOS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sl_RTOS.dir/flags.make
 
-CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj: CMakeFiles/Sl_RTOS.dir/flags.make
-CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj: D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj"
-	D:\AllSoft\Program\Study\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections -x assembler-with-cpp $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Sl_RTOS.dir\Arch\Arm\Corterx-m7\GNU\os_cpu\cpu_a.s.obj -c D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU\os_cpu\cpu_a.s
+CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj: CMakeFiles/Sl_RTOS.dir/flags.make
+CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj: D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Arch/Arm/Corterx-m7/GNU/cpu_a.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\build\debug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj"
+	D:\AllSoft\Program\Study\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections -x assembler-with-cpp $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Sl_RTOS.dir\Arch\Arm\Corterx-m7\GNU\cpu_a.s.obj -c D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU\cpu_a.s
 
-CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.i"
-	D:\AllSoft\Program\Study\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections -x assembler-with-cpp $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU\os_cpu\cpu_a.s > CMakeFiles\Sl_RTOS.dir\Arch\Arm\Corterx-m7\GNU\os_cpu\cpu_a.s.i
+CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.i"
+	D:\AllSoft\Program\Study\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections -x assembler-with-cpp $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU\cpu_a.s > CMakeFiles\Sl_RTOS.dir\Arch\Arm\Corterx-m7\GNU\cpu_a.s.i
 
-CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.s"
-	D:\AllSoft\Program\Study\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections -x assembler-with-cpp $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU\os_cpu\cpu_a.s -o CMakeFiles\Sl_RTOS.dir\Arch\Arm\Corterx-m7\GNU\os_cpu\cpu_a.s.s
+CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.s"
+	D:\AllSoft\Program\Study\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections -x assembler-with-cpp $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\Sl_RTOS\Arch\Arm\Corterx-m7\GNU\cpu_a.s -o CMakeFiles\Sl_RTOS.dir\Arch\Arm\Corterx-m7\GNU\cpu_a.s.s
 
 CMakeFiles/Sl_RTOS.dir/Arch/Arm/cpu_core.c.obj: CMakeFiles/Sl_RTOS.dir/flags.make
 CMakeFiles/Sl_RTOS.dir/Arch/Arm/cpu_core.c.obj: D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Arch/Arm/cpu_core.c
@@ -487,7 +487,7 @@ CMakeFiles/Sl_RTOS.dir/platform/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 
 # Object files for target Sl_RTOS
 Sl_RTOS_OBJECTS = \
-"CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj" \
+"CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj" \
 "CMakeFiles/Sl_RTOS.dir/Arch/Arm/cpu_core.c.obj" \
 "CMakeFiles/Sl_RTOS.dir/board/Src/gpio.c.obj" \
 "CMakeFiles/Sl_RTOS.dir/board/Src/main.c.obj" \
@@ -521,7 +521,7 @@ Sl_RTOS_OBJECTS = \
 # External object files for target Sl_RTOS
 Sl_RTOS_EXTERNAL_OBJECTS =
 
-Sl_RTOS.elf: CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
+Sl_RTOS.elf: CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj
 Sl_RTOS.elf: CMakeFiles/Sl_RTOS.dir/Arch/Arm/cpu_core.c.obj
 Sl_RTOS.elf: CMakeFiles/Sl_RTOS.dir/board/Src/gpio.c.obj
 Sl_RTOS.elf: CMakeFiles/Sl_RTOS.dir/board/Src/main.c.obj

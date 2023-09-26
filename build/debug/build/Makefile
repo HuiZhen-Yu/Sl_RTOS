@@ -66,8 +66,8 @@ CMAKE_BINARY_DIR = D:\Project\Embedded\CUBEIDEPrj\STM32CubeIDE\workspace_1.13.0\
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	C:\Users\yhz\AppData\Roaming\Code\User\globalStorage\ms-vscode.vscode-embedded-tools\vcpkg\root\downloads\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.20.1\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\AllSoft\Program\Study\Microsoft\Microsoft VS\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -128,13 +128,13 @@ Sl_RTOS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/build
 .PHONY : Sl_RTOS/fast
 
-Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.obj: Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
-.PHONY : Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.obj
+Arch/Arm/Corterx-m7/GNU/cpu_a.obj: Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/cpu_a.obj
 
 # target to build an object file
-Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
-.PHONY : Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj
+Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sl_RTOS.dir\build.make CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj
+.PHONY : Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj
 
 Arch/Arm/cpu_core.obj: Arch/Arm/cpu_core.c.obj
 .PHONY : Arch/Arm/cpu_core.obj
@@ -809,7 +809,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sl_RTOS
-	@echo ... Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.obj
+	@echo ... Arch/Arm/Corterx-m7/GNU/cpu_a.obj
 	@echo ... Arch/Arm/cpu_core.obj
 	@echo ... Arch/Arm/cpu_core.i
 	@echo ... Arch/Arm/cpu_core.s

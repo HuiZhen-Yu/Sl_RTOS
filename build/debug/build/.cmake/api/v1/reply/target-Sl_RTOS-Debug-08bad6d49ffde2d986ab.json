@@ -43,13 +43,13 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 60,
+				"line" : 68,
 				"parent" : 2
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 30,
+				"line" : 38,
 				"parent" : 2
 			},
 			{
@@ -67,7 +67,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 73,
+				"line" : 81,
 				"parent" : 2
 			}
 		]
@@ -154,7 +154,23 @@
 			[
 				{
 					"backtrace" : 6,
+					"path" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/kernal/ports"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/kernal/config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/kernal/core"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/board/Inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Arch/Arm/Corterx-m7/GNU"
 				},
 				{
 					"backtrace" : 6,
@@ -304,7 +320,7 @@
 		{
 			"backtrace" : 7,
 			"compileGroupIndex" : 0,
-			"path" : "Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s",
+			"path" : "Arch/Arm/Corterx-m7/GNU/cpu_a.s",
 			"sourceGroupIndex" : 0
 		},
 		{

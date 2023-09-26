@@ -41,18 +41,33 @@
 #include "os_cfg.h"
 #include "cpu_core.h"
 
+#if     OS_CFG_ISR_POST_DEFERRED_EN > 0u 
 
 #define     OS_CRITICAL_ENTER()                                     \
             do{                                                     \
                 CPU_CRITICAL_ENTER();                               \
+                CPU_CRITICAL_EXIT();                                \
             }   while(0)
 
 
 #define     OS_CRITICAL_EXIT()                                     \
-            do{                                                     \
+            do{                                                    \
+                CPU_CRITICAL_EXIT();                               \
                 CPU_CRITICAL_EXIT();                               \
             }   while(0)
 
+#else
+
+#define  OS_CRITICAL_ENTER()                    CPU_CRITICAL_ENTER()
+
+#define  OS_CRITICAL_ENTER_CPU_EXIT()
+
+#define  OS_CRITICAL_EXIT()                     CPU_CRITICAL_EXIT()
+
+#define  OS_CRITICAL_EXIT_NO_SCHED()            CPU_CRITICAL_EXIT()
 
 #endif
 
+
+
+#endif

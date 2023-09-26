@@ -55,21 +55,37 @@
 */
 
 #ifdef  CPU_CFG_INT_DIS_MEAS_EN
-CPU_TS_TMR  CPU_IntDisMeasMaxCurReset (void)
+void  CPU_IntDisMeasStart (void)
 {
-    // CPU_TS_TMR  time_max_cnts;
-    // CPU_SR_ALLOC();
-
-
-    // time_max_cnts             = CPU_IntDisMeasMaxCurGet();
-    // CPU_INT_DIS();
-    // CPU_IntDisMeasMaxCur_cnts = 0u;
-    // CPU_INT_EN();
-
-    // return (time_max_cnts);
+    // CPU_IntDisMeasCtr++;
+    // if (CPU_IntDisNestCtr == 0u) {                                  /* If ints NOT yet dis'd, ...                       */
+    //     CPU_IntDisMeasStart_cnts = CPU_TS_TmrRd();                  /* ... get ints dis'd start time.                   */
+    // }
+    // CPU_IntDisNestCtr++;
 }
 #endif
 
+#ifdef  CPU_CFG_INT_DIS_MEAS_EN
+void  CPU_IntDisMeasStop (void)
+{
+    // CPU_TS_TMR  time_ints_disd_cnts;
 
+
+    // CPU_IntDisNestCtr--;
+    // if (CPU_IntDisNestCtr == 0u) {                                  /* If ints NO longer dis'd,        ...              */
+    //     CPU_IntDisMeasStop_cnts = CPU_TS_TmrRd();                   /* ... get  ints dis'd stop time & ...              */
+    //                                                                 /* ... calc ints dis'd tot  time (see Note #1b2A).  */
+    //     time_ints_disd_cnts     = CPU_IntDisMeasStop_cnts -
+    //                               CPU_IntDisMeasStart_cnts;
+    //                                                                 /* Calc max ints dis'd times.                       */
+    //     if (CPU_IntDisMeasMaxCur_cnts < time_ints_disd_cnts) {
+    //         CPU_IntDisMeasMaxCur_cnts = time_ints_disd_cnts;
+    //     }
+    //     if (CPU_IntDisMeasMax_cnts    < time_ints_disd_cnts) {
+    //         CPU_IntDisMeasMax_cnts    = time_ints_disd_cnts;
+    //     }
+    // }
+}
+#endif
 
 

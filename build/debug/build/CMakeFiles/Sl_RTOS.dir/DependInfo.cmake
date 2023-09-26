@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s" "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build/CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/os_cpu/cpu_a.s.obj"
+  "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/Arch/Arm/Corterx-m7/GNU/cpu_a.s" "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build/CMakeFiles/Sl_RTOS.dir/Arch/Arm/Corterx-m7/GNU/cpu_a.s.obj"
   "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/board/Startup/startup_stm32h753iitx.s" "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build/CMakeFiles/Sl_RTOS.dir/board/Startup/startup_stm32h753iitx.s.obj"
   "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/kernal/ports/port_s.s" "D:/Project/Embedded/CUBEIDEPrj/STM32CubeIDE/workspace_1.13.0/Sl_RTOS/build/debug/build/CMakeFiles/Sl_RTOS.dir/kernal/ports/port_s.s.obj"
   )

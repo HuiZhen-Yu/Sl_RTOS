@@ -67,6 +67,22 @@ typedef            void      (*CPU_FNCT_VOID)(void);            /* See Note #2a.
 typedef            void      (*CPU_FNCT_PTR )(void *p_obj);     /* See Note #2b.                                        */
 
 
+
+#define  CPU_INT_DIS()         do { cpu_sr = CPU_SR_Save(); } while (0) /* Save    CPU status word & disable interrupts.*/
+#define  CPU_INT_EN()          do { CPU_SR_Restore(cpu_sr); } while (0) /* Restore CPU status word.                     */
+
+
+                                                                        /* Disable interrupts, ...                      */
+                                                                        /* & start interrupts disabled time measurement.*/
+#define  CPU_CRITICAL_ENTER()  do { CPU_INT_DIS();         \
+                                    CPU_IntDisMeasStart(); }  while (0)
+                                                                        /* Stop & measure   interrupts disabled time,   */
+                                                                        /* ...  & re-enable interrupts.                 */
+#define  CPU_CRITICAL_EXIT()   do { CPU_IntDisMeasStop();  \
+                                    CPU_INT_EN();          }  while (0)
+
+
+
 /*
 *********************************************************************************************************
 *                                       CPU WORD CONFIGURATION
@@ -122,7 +138,7 @@ typedef  CPU_INT08U  CPU_DATA;
 
 
 typedef  CPU_DATA    CPU_ALIGN;                                 /* Defines CPU data-word-alignment size.                */
-typedef  CPU_ADDR    CPU_SIZE_T;                                /* Defines CPU standard 'size_t'   size.  
+typedef  CPU_ADDR    CPU_SIZE_T;                                /* Defines CPU standard 'size_t'   size.                */
 
 
 
